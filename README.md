@@ -1,10 +1,11 @@
 # Minecraft-Cheat-Scanner
 
-Thanks for downloading it!!!
+Thanks for downloading it!
 
 This tool is coded in C language.
-It contains different strings of the most famous ghost client and injection clients for Minecraft.
-It can detect many clients very quicly and it works only in Windows operative system
+It contains different strings of the most famous ghost clients and injection clients for Minecraft.
+It can detect many clients very quickly.
+It works only in Windows operative system.
 
 HOW DOES IT WORKS:
 
@@ -15,4 +16,4 @@ HOW DOES IT WORKS:
 5) Go to "Save..." and save the file in the same directory as this file ("String Scanner.exe")
 6) Open "String Scanner.exe" and It will give you the output with the name of the client found.
 
-Hope It will work well, if not contact me here.
+Hope It will work well for you, if not contact me here.
