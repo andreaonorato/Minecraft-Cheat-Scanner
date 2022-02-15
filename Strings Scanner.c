@@ -2,237 +2,156 @@
 #include<string.h>
 #include<windows.h>
 
-int main()
+int main() {
+    FILE* inFile;
 
-{
-char* a= "/AVIX-Config";
-char* b= "trumpclientftw_bape";
-char* c= "dg82fo.pw";
-char* d= "nG@W";
-char* e= "G0ttaDipMen.java";
-char* f= "Harambe.png";
-char* g= "czaarek99";
-char* h= "+(M0G.V";
-char* i= "dinkio";
-char* l= "Sa_Vc";
-char* m= "5d@56";
-char* n= "TCNH$1";
-char* o= "onetap.cc";
-char* p= "bspkrs.IlIIIlIlIllIIlllIllIllIII";
-char* q= "com/sun/jna/z/Main";
-char* r= "/a.class:::0";
-char* s= "hi.a2";
-char* t= "0SO1Lk2KASxzsd";
-char* u= "yCcADi";
-char* v= "74.91.125.194";
-char* w= "kc(g9";
-char* x= "kc((k";
-char* y= "JNativeHook";
-char* k= "144.217.241.181";
-char* j= "/tcpnodelaymod/COM1";
+    // String list
+    char* a= "/AVIX-Config";
+    char* b= "trumpclientftw_bape";
+    char* c= "dg82fo.pw";
+    char* d= "nG@W";
+    char* e= "G0ttaDipMen.java";
+    char* f= "Harambe.png";
+    char* g= "czaarek99";
+    char* h= "+(M0G.V";
+    char* i= "dinkio";
+    char* l= "Sa_Vc";
+    char* m= "5d@56";
+    char* n= "TCNH$1";
+    char* o= "onetap.cc";
+    char* p= "bspkrs.IlIIIlIlIllIIlllIllIllIII";
+    char* q= "com/sun/jna/z/Main";
+    char* r= "/a.class:::0";
+    char* s= "hi.a2";
+    char* t= "0SO1Lk2KASxzsd";
+    char* u= "yCcADi";
+    char* v= "74.91.125.194";
+    char* w= "kc(g9";
+    char* x= "kc((k";
+    char* y= "JNativeHook";
+    char* k= "144.217.241.181";
+    char* j= "/tcpnodelaymod/COM1";
+    char a1[256];
+    int flag = 0;
 
-char a1[255]; 
-char b1[255];
-char c1[255];
-char d1[255];
-char e1[255];
-char f1[255];
-char g1[255];
-char h1[255];
-char i1[255];
-char l1[255];
-char m1[255];
-char n1[255];
-char o1[255];
-char p1[255];
-char q1[255];
-char r1[255];
-char s1[255];
-char t1[255];
-char u1[255];
-char v1[255];
-char w1[255];
-char x1[255];
-char y1[255];
-char k1[255];
-char j1[255];
-printf("Strings Scanner by DonTopoGigio_ (ONLY 1.8)\nWait a few minutes...\n");
-//AVIX a
-FILE* Filea;
-if((Filea = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(a1,254,Filea)) 
-printf("%s\n", strstr(a1, a)); 
-//TrumpClient b
-FILE* Fileb;
-if((Fileb = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(b1,254,Fileb))
-printf("%s\n", strstr(b1, b));
-//dg82fo.pw c
-FILE* Filec;
-if((Filec = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(c1,254,Filec))
-printf("%s\n", strstr(c1, c));
-//nG@W d
-FILE* Filed;
-if((Filed = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(d1,254,Filed))
-printf("%s\n", strstr(d1, d));
-//G0ttaDipMen.java e
-FILE* Filee;
-if((Filee = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(e1,254,Filee))
-printf("%s\n", strstr(e1, e));
-//Harambe.png f
-FILE* Filef;
-if((Filef = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(f1,254,Filef))
-printf("%s\n", strstr(f1, f));
-//czaarek99 g
-FILE* Fileg;
-if((Fileg = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(g1,254,Fileg))
-printf("%s\n", strstr(g1, g));
-//+(M0G.V h
-FILE* Fileh;
-if((Fileh = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(h1,254,Fileh))
-printf("%s\n", strstr(h1, h));
-//dinkio i
-FILE* Filei;
-if((Filei = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(i1,254,Filei))
-printf("%s\n", strstr(i1, i));
-//Sa_Vc l
-FILE* Filel;
-if((Filel = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(l1,254,Filel))
-printf("%s\n", strstr(l1, l));
-//5d@56 m
-FILE* Filem;
-if((Filem = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(m1,254,Filem))
-printf("%s\n", strstr(m1, m));
-//TCNH$1 n
-FILE* Filen;
-if((Filen = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(n1,254,Filen))
-printf("%s\n", strstr(n1, n));
-//onetap.cc o
-FILE* Fileo;
-if((Fileo = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(o1,254,Fileo))
-printf("%s\n", strstr(o1, o));
-//bspkrs.IlIIIlIlIllIIlllIllIllIII p
-FILE* Filep;
-if((Filep = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(p1,254,Filep))
-printf("%s\n", strstr(p1, p));
-//com/sun/jna/z/Main q
-FILE* Fileq;
-if((Fileq = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(q1,254,Fileq))
-printf("%s\n", strstr(q1, q));
-///a.class:::0 r
-FILE* Filer;
-if((Filer = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(r1,254,Filer))
-printf("%s\n", strstr(r1, r));
-//hi.a2 s
-FILE* Files;
-if((Files = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(s1,254,Files))
-printf("%s\n", strstr(s1, s));
-//0SO1Lk2KASxzsd t
-FILE* Filet;
-if((Filet = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(t1,254,Filet))
-printf("%s\n", strstr(t1, t));
-//yCcADi u
-FILE* Fileu;
-if((Fileu = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(u1,254,Fileu))
-printf("%s\n", strstr(u1, u));
-//74.91.125.194 v 
-FILE* Filev;
-if((Filev = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(v1,254,Filev))
-printf("%s\n", strstr(v1, v));
-//kc(g9 w
-FILE* Filew;
-if((Filew = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(w1,254,Filew))
-printf("%s\n", strstr(w1, w));
-//kc((k x
-FILE* Filex;
-if((Filex = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(x1,254,Filex))
-printf("%s\n", strstr(x1, x));
-//JNativeHook y
-FILE* Filey;
-if((Filey = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(y1,254,Filey))
-printf("%s\n", strstr(y1, y));
-//144.217.241.181 k
-FILE* Filek;
-if((Filek = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(k1,254,Filek)) 
-printf("%s\n", strstr(k1, k)); 
-//tcpnodelaymod/COM1 j
-FILE* Filej;
-if((Filej = fopen("Search results.txt", "r"))==NULL)
-{	fprintf(stderr, "errore nell'apertura del file\n");
-}
-while(fgets(j1,254,Filej)) 
-printf("%s\n", strstr(j1, j)); 
-system("PAUSE");
-}
+    printf("Strings Scanner for injection clients by DonTopoGigio_\nWait a few seconds...\n");
 
+    // Opening file
+    if((inFile = fopen("Search results.txt", "r"))==NULL) {
+        fprintf(stderr, "errore nell'apertura del file\n");
+    }
 
+    // Searching string
+    while(fgets(a1,255,inFile)) {
+        if (strstr(a1, a)!=NULL) {
+            printf("AVIX Client found\n"); // AVIX a
+            flag = 1;
+            break; }
+        if (strstr(a1, w)!=NULL) {
+            printf("Vape Premium Client found\n"); // kc(g9 w
+            flag = 1;
+            break; }
+        if (strstr(a1, b)!=NULL) {
+            printf("Bape Client found\n"); // TrumpClient b
+            flag = 1;
+            break; }
+        if (strstr(a1, c)!=NULL) {
+            printf("Drek Client found\n"); // dg82fo.pw c
+            flag = 1;
+            break; }
+        if (strstr(a1, d)!=NULL) {
+            printf("Fusk Client found\n"); // nG@W d
+            flag = 1;
+            break; }
+        if (strstr(a1, e)!=NULL) {
+            printf("Gucci Client found\n"); // G0ttaDipMen.java e
+            flag = 1;
+            break; }
+        if (strstr(a1, f)!=NULL) {
+            printf("Harambe Client found\n"); //Harambe.png f
+            flag = 1;
+            break; }
+        if (strstr(a1, g)!=NULL) {
+            printf("Incognito Client found\n"); // czaarek99 g
+            flag = 1;
+            break; }
+        if (strstr(a1, h)!=NULL) {
+            printf("Hillary Rodham Clinton Client found\n"); // +(M0G.V h
+            flag = 1;
+            break; }
+        if (strstr(a1, i)!=NULL) {
+            printf("Kurium Client found\n"); // dinkio i
+            flag = 1;
+            break; }
+        if (strstr(a1, l)!=NULL) {
+            printf("Merge Client found\n"); // Sa_Vc l
+            flag = 1;
+            break; }
+        if (strstr(a1, m)!=NULL) {
+            printf("Merge Client found\n"); // 5d@56 m
+            flag = 1;
+            break; }
+        if (strstr(a1, n)!=NULL) {
+            printf("Motion Blur Misplace Client found\n"); // TCNH$1 n
+            flag = 1;
+            break; }
+        if (strstr(a1, o)!=NULL) {
+            printf("Onetap Client found\n"); // onetap.cc o
+            flag = 1;
+            break; }
+        if (strstr(a1, p)!=NULL) {
+            printf("Spooky Client found\n"); // bspkrs.IlIIIlIlIllIIlllIllIllIII p
+            flag = 1;
+            break; }
+        if (strstr(a1, q)!=NULL) {
+            printf("Vape 2.06 Client found\n"); // com/sun/jna/z/Main q
+            flag = 1;
+            break; }
+        if (strstr(a1, r)!=NULL) {
+            printf("Time Changer Misplace Client found\n"); // a.class:::0 r
+            flag = 1;
+            break; }
+        if (strstr(a1, s)!=NULL) {
+            printf("Veiv Client found\n"); // hi.a2 s
+            flag = 1;
+            break; }
+        if (strstr(a1, t)!=NULL) {
+            printf("Zuiy Client found\n"); // 0SO1Lk2KASxzsd t
+            flag = 1;
+            break; }
+        if (strstr(a1, u)!=NULL) {
+            printf("Vape 2.47 Client found\n"); // yCcADi u
+            flag = 1;
+            break; }
+        if (strstr(a1, v)!=NULL) {
+            printf("Vape 2.50 Client found\n"); // 74.91.125.194 v
+            flag = 1;
+            break; }
+        if (strstr(a1, x)!=NULL) {
+            printf("Premium Vape Client found\n"); // kc((k x
+            flag = 1;
+            break; }
+        if (strstr(a1, y)!=NULL) {
+            printf("Autoclicker found\n"); // JNativeHook y
+            flag = 1;
+            break; }
+        if (strstr(a1, k)!=NULL) {
+            printf("Vape Lite client found\n"); // 144.217.241.181 k
+            flag = 1;
+            break; }
+        if (strstr(a1, j)!=NULL) {
+            printf("Vea Client found\n"); // tcpnodelaymod/COM1 j
+            flag = 1;
+            break; }
+        }
+
+    // Check if nothing has been found
+    if (flag!=1) {
+        printf("Nothing Found");
+    }
+
+    // Closing file
+    fclose(inFile);
+
+    system("PAUSE");
+}
