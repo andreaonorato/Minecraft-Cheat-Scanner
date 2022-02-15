@@ -13,7 +13,7 @@ HOW DOES IT WORKS:
 2) Install it and open it
 3) Right click on Javaw.exe ---> Proprieties ---> Memory ---> take off the "v" on "Hide free regions"
 4) In the same pages go to "strings...", write 4 near Minimum and place a tick on "Image" and "Mapped" and confirm "OK"
-5) Go to "Save..." and save the file in the same directory as this file ("String Scanner.exe")
+5) Go to "Save..." and save the file in the same directory as this file ("String_Scanner_By_DonTopoGigio.exe")
 6) Open "String_Scanner_By_DonTopoGigio.exe" and It will give you the output with the name of the client found.
 
 Hope It will work well for you, if not contact me here.
