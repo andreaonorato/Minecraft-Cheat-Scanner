@@ -38,7 +38,7 @@ int main() {
 
     // Opening file
     if((inFile = fopen("Search results.txt", "r"))==NULL) {
-        fprintf(stderr, "errore nell'apertura del file\n");
+        fprintf(stderr, "Error opening the file\n");
     }
 
     // Searching string
